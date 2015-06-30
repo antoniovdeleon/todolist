@@ -39,14 +39,6 @@ $(function() {
    console.log(typeof $shoppingUL)
  });
 
- $shoppingUL.on('dblclick', '.item', function() {
-   $(this).addClass('purchased');
-   $(this).animate({opacity: '0.10'}, 1000);
-   $(this).wrap('<strike>');
-   console.log(typeof $shoppingUL)
-   
-   $( "#foo").unbind( "click" );
- });
 
 
 

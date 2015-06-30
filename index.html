@@ -46,7 +46,21 @@
  <!-- Latest compiled and minified Bootstrap JavaScript -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+ <!-- Underscore library -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
  <!-- custom script -->
  <script type="text/javascript" src="script.js"></script>
+
+ <script type="text/template" id="pets-template">
+  <div class="pet">
+    <p>
+      <%= name %> - <%= species %>
+      &nbsp;
+      <button type="button" class="close delete" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </p>
+    <hr>
+  </div>
+</script>
 </body>
 </html></html>
